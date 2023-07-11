@@ -1,0 +1,27 @@
+.userPage {
+  padding: 0%;
+  border: 0.5px solid grey;
+  background: linear-gradient(to right, #d1e0e0, #b3cccc);
+  position: fixed;
+  width: 15%;
+  height: 100vh;
+}
+
+.image {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  align-items: center;
+  background: linear-gradient(to right, #b3cccc, #94b8b8);
+  background-color: #a1cccc;
+
+  justify-content: center;
+}
